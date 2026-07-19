@@ -1,0 +1,8 @@
+<script>
+  document.querySelectorAll('.post-content a[href], .profile a[href], #menu a[href]').forEach(function (a) {
+    if (a.host && a.host !== location.host) {
+      a.target = '_blank';
+      a.rel = 'noopener';
+    }
+  });
+</script>

@@ -1,0 +1,10 @@
+# Private / local-only material
+dont_upload/
+
+# Hugo build artifacts
+public/
+resources/
+.hugo_build.lock
+
+# OS
+.DS_Store

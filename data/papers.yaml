@@ -1,0 +1,88 @@
+papers:
+- title: 'Registration Walls in Digital News: Privacy, Access, and Shifts in Attention'
+  section: platform
+  tags:
+  - Privacy
+  authors: with Donghwa Bae, Adithya Pattabhiramaiah, and Tingting Nian
+  venue: <em>MIS Quarterly</em>, forthcoming 2026
+  links: []
+  abstract: 'The institutional press confronts a dual challenge in the digital age: adapting to shifting consumption patterns toward alternative information formats and navigating an industry-wide shift from third-party to first-party data collection driven by privacy concerns. This study examines registration walls, which require users to create accounts and share personal information for content access, as a distinct alternative to monetary barriers such as paywalls. Using the New York Times'' (NYT) August 2019 registration wall implementation as a natural experiment, we study how effort-based access barriers affect user engagement. We theorize two mechanisms: an effort-investment pathway, where intrinsically motivated readers tolerate added friction, and an alternative-option pathway, where users with lower match value at a given outlet switch away. Privacy salience may further moderate these effects, although it leaves open the empirical question of whether it heightens resistance or fosters acceptance. Leveraging a unique consumer browsing panel dataset, we find strong support for the effort-investment mechanism. "News-multihomers," who consume news from multiple journalistic sources, show marginally increased engagement with NYT after the wall''s introduction, whereas "news-singlehomers," who primarily rely on NYT for journalistic news, reduce their engagement. Users in regions with higher exposure to documented privacy incidents respond less negatively, with this attenuation most pronounced among news-singlehomers, consistent with more sophisticated cost–benefit calculations. Finally, users who reduce NYT engagement display distinct switching patterns influenced by prior engagement, demographics, and privacy attitudes. Together, these findings offer insight into the mechanisms through which registration walls reshape web-based digital news engagement and carry important implications for sustaining an informed citizenry in a rapidly evolving media landscape.'
+- title: Do Non-monetary Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Videogame Live-streaming Platform
+  section: platform
+  tags:
+  - Token Policy
+  authors: with Peiyan Yu and Anindya Ghose
+  venue: <em>Information Systems Research</em>, forthcoming 2026
+  links:
+  - name: SSRN
+    url: https://ssrn.com/abstract=4316600
+  abstract: 'This paper studies how the introduction of non-monetary gift channels affects voluntary monetary gift-giving in video-game live-streaming. The ephemeral nature of live-streamed content confines monetization to the broadcast window, making voluntary paid gifts from viewers the dominant revenue source for streamers. Platforms have increasingly introduced non-monetary gifts to encourage viewer participation within streams. Yet there is no causal evidence on whether non-monetary gifts cannibalize or complement monetary gifts. We theorize that when specific platform design conditions are present (real-time public visibility, value-differentiated gift tiers, and synchronous interaction), non-monetary gifts can complement monetary gifts through costly signaling with norm elevation. Leveraging an exogenous policy change on a major live-streaming platform that increased viewers'' access to non-monetary gifts, we analyze individual-level transaction data using multiple modern causal inference approaches. We find that non-monetary gifts significantly increase monetary gift spending. The primary driver is signaling dilution, as non-monetary gifts replicate the reputation value of the lowest paid tier, prompting viewers to escalate to costlier options to maintain differentiation. We also find early evidence of habit formation: previously non-paying viewers who experience non-monetary gift-sending are significantly more likely to begin and sustain monetary gifting. The net effect is complementarity over cannibalization, holding across viewer experience levels, streamer popularity tiers, and game genres. Our findings provide evidence that introducing non-monetary options in live-streaming can raise rather than lower voluntary monetary contributions when platform design enables signaling differentiation.'
+- title: Growing Platforms by Adding Complementors without a Contract
+  section: platform
+  tags:
+  - Platform Policy
+  authors: with Zhuoxin (Allen) Li
+  venue: <em>Information Systems Research</em>, 2025, 36(6), 1670–1690
+  links:
+  - name: Link
+    url: https://pubsonline.informs.org/doi/10.1287/isre.2023.0237
+  abstract: Online platforms often face challenges in sustaining growth, especially in competitive markets such as food delivery. This paper examines a novel strategy in which platforms list nonpartnered restaurants, allowing consumers to order from them via third-party deliverers. Whereas these restaurants gain visibility without paying commissions, concerns arise about potential harm because of lack of control over menus and pricing. We analyze the impact of this strategy using data from Grubhub and a California policy change that banned nonpartnered listings. We find that being listed as nonpartnered boosts takeout revenue for these restaurants, particularly independent ones. Additionally, there's a positive spillover effect on partnered restaurants. However, regulatory delisting reverses these gains, highlighting the delicate balance between platform growth strategies and regulatory actions.
+- title: Startup Accelerators, Information Asymmetry, and Corporate Venture Capital Investments
+  section: platform
+  tags:
+  - Information Asymmetry
+  authors: with Peng Huang
+  venue: <em>Management Science</em>, 2025, 71(11), 9123–9144
+  links:
+  - name: Link
+    url: https://pubsonline.informs.org/doi/10.1287/mnsc.2020.03494
+  abstract: Beyond financial incentives, investments by Corporate Venture Capitalists (CVCs) are often motivated by strategic objectives, such as gaining early exposure to emerging technologies. However, in the presence of information asymmetry, CVCs tend to invest in startups with a high degree of business relatedness—startups that are less risky but lacking in knowledge novelty—which are not ideal for achieving their strategic objectives. With startup accelerators showing promise in mitigating the information asymmetry problem, we examine how a CVC's investment pattern in a region shifts following a startup accelerator's entry, with a particular interest in the degree of business relatedness between the CVC's parent corporation and its portfolio companies. Analyses reveal that CVCs increase investments in startups that are dissimilar to their parent's business following the entry of startup accelerators. We show that the two pathways through which accelerators reduce information asymmetry—quality signals, and mentorship and training—likely contribute to this change. In addition, the change is most pronounced for CVCs whose parent firm operates in an IT-using—rather than an IT-producing—industry, suggesting that accelerators help IT-using firms gain a foothold in the technology space through CVC investments.
+- title: 'Delaying Informed Consent: An Empirical Investigation of Mobile Apps'' Upgrade Decisions'
+  section: platform
+  tags:
+  - Platform Policy
+  - Privacy
+  authors: with Siva Viswanathan
+  venue: <em>Management Science</em>, 2025, 71(8), 7113–7135
+  links:
+  - name: Link
+    url: https://pubsonline.informs.org/doi/10.1287/mnsc.2022.00334
+  abstract: 'In response to users'' evolving desire for choice and control over their personal data, numerous platforms across sectors have been updating privacy policies. Unlike public regulations that mandate uniform compliance, many platforms grant a more flexible time window for complementors to adopt privacy policies. This study is among the first to investigate the impact of apps delaying policy adoption in the context of a privacy policy change: the upgrade to Android version 6.0, which gave consumers more control over their personal data. By installing over 13,691 popular apps on emulators, we detect exactly when each app upgrades to version 6.0 and quantify the impact of delaying the upgrade. We find that delaying the upgrade results in a significant loss of downloads and user ratings for apps. In further examining who delays upgrades and why, we find that apps that display in-app advertising and overreach for permissions are more likely to delay upgrading, suggesting a strategic trade-off between marketplace outcomes and the ability to collect data continuously.'
+- title: Who Forgoes Screening in Online Markets and Why? Evidence from Airbnb
+  section: platform
+  tags:
+  - Platform Policy
+  - Information Asymmetry
+  authors: with Shun Ye, Siva Viswanathan, and Rajshree Agarwal
+  venue: <em>MIS Quarterly</em>, 2021, 45(4), 1745–1776
+  links:
+  - name: Link
+    url: https://doi.org/10.25300/misq/2021/15335
+  abstract: Screening is considered a necessary mechanism for alleviating information asymmetry but has also raised concerns about increased discrimination in online peer-to-peer market platforms. Paradoxically, providers of goods and services may also voluntarily forgo screening, even though it increases the risks and costs associated with poor matches. We examine who may choose to forgo screening and why, and its impact on their performance outcomes. Our study's empirical context is the Airbnb platform, wherein the "Instant Book" feature enables hosts to forgo the screening of guests. Utilizing a unique panel dataset of all listings in New York City during August 2015-February 2017, we first explore the antecedents of voluntarily switching to instant booking and then causally identify the impacts of switching. Our study provides evidence of the economic benefits of forgoing screening from increased occupancy even as review ratings decline; these effects are stronger for Black and female hosts. We discuss the strategic and social welfare implications of these findings within the context of current conversations on discrimination and bias in the sharing economy.
+- title: 'The Impact of Large Language Models on Open-source Innovation: Evidence from GitHub Copilot'
+  section: genai
+  tags: []
+  authors: with Doron Yeverechyahu and Gal Oestreicher-Singer
+  venue: Working paper
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2409.08379
+  abstract: 'Large Language Models (LLMs) are reshaping knowledge work, yet their impact on voluntary, self-guided open innovation forums (contributors choose tasks without managerial direction) may differ fundamentally from effects observed in organizational settings. We study this question in open-source software development, where individuals'' contributions collectively drive innovation at a community level. Unlike product innovation, where typologies for classifying innovation are well established, knowledge work in open-source settings calls for a distinction grounded in the cognitive demand a task places on the contributor. Burgeoning literature distinguishes substantive contributions, which require creative problem formulation to introduce new functionality, from incremental contributions, which draw on comprehension of existing code to maintain and refine it. We exploit a natural experiment around GitHub Copilot''s launch in October 2021, where Copilot supported languages like Python while not supporting R for business reasons, creating an exogenous partition between otherwise comparable ecosystems. Using three complementary identification strategies and two classification approaches, we find that Copilot availability increases open-source contributions by 28 to 40 percent. The increase in incremental contributions is significantly larger than the increase in substantive contributions across all specifications. This disparity is more pronounced in projects with higher activity levels and widens following a model upgrade: LLMs function more effectively when existing context helps define the problem and constrain solutions, tilting collaborative innovation toward exploitation of established codebases rather than exploration of new functionality. This paper provides a rare instance of causal field evidence on LLM effects, given the speed at which GenAI has exploded across the knowledge economy.'
+- title: 'Mitigating Spoken Language Barriers in AI-Assisted Programming: Evidence from a Field Experiment'
+  section: genai
+  tags: []
+  authors: with Rohit Aggarwal and Harpreet Singh
+  venue: Working paper
+  links:
+  - name: Draft
+    url: https://drive.google.com/file/d/1s2J4FHrDQks3fyCVBG871ZCKJqfWjHoO/view?usp=sharing
+  abstract: 'Generative Artificial Intelligence (GenAI) has transformed software development, with documented productivity gains driven by its natural-language interface. Paradoxically, this same natural-language interaction can disadvantage developers who speak low-resource languages. The difficulty of articulating technical requirements in English imposes cognitive load, drives tool abandonment, and fuels an "AI divide" within the global developer workforce. This paper exploits a key feature of LLMs, their format agnosticism, which opens a design space for intermediate representations optimized for writer cognition rather than reader comprehension. Grounded in the design science research tradition and drawing on kernel theories of information representation, cognitive load, and speech production, we develop a nascent design theory anchored in three principles (separation of concerns, symbolic externalization, and deferred definition) that yield three cognitive mechanisms (compositional offloading, working memory relief, and staged articulation). We instantiate this design as "Metadata Prompting," a JSON-based intermediate representation that decouples program specification from English grammar. Through an incentive-compatible field experiment with a technology firm in India''s real hiring process, we first quantitatively establish the existence of spoken-language barriers: under traditional English prompting, developers with lower English proficiency are 80% more likely to abandon tasks, require 22% more time, and achieve 14% lower accuracy. We then demonstrate that Metadata Prompting improves performance for all developers, with the largest gains for lower-proficiency developers, effectively closing the proficiency gaps. To understand how much of this benefit comes from the human side (developers articulating requirements better) versus the model side (LLMs parsing structured input more easily), we conduct a format conversion analysis. Approximately 87% of the accuracy advantage are attributable to human-side benefits, and developers facing the greatest articulation burden most prefer the structured format. Our findings reframe the AI divide from a remediation problem to a design problem, offering actionable guidance for GenAI platforms, policymakers, and gig economy platforms operating in multilingual, global settings.'
+- title: To Err Is Human; To Annotate, SILICON? Toward Robust Reproducibility in LLM Annotation
+  section: genai
+  tags: []
+  authors: with Xiang Cheng and João Sedoc
+  venue: Working paper
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2412.14461
+  abstract: 'Unstructured text data annotation is foundational to management research. LLMs offer a cost-effective and scalable alternative to human annotation, but they introduce a novel challenge: the annotator itself can be retired. Proprietary models undergo regular deprecation cycles, threatening long-term reproducibility. Hence, the ability to reproduce annotation results when the original model becomes unavailable, i.e., robust reproducibility, is a central methodological challenge for LLM-based annotation. Achieving robust reproducibility requires first controlling measurement error. We develop an analytical framework that decomposes measurement error into four sources: guideline-induced error from inconsistent annotation criteria, baseline-induced error from unreliable human references, prompt-induced error from suboptimal meta-instruction, and model-induced error from architectural differences across LLMs. We develop the SILICON workflow that instantiates the analytical framework, prescribing targeted interventions at each error source. Empirical validation across nine management research tasks confirms that these interventions reduce measurement error, and simulations show that the resulting error reduction yields more accurate downstream statistical estimates. With measurement error controlled, we address two further aspects of robust reproducibility. First, we propose a regression-based methodology to establish backup open-weight models, which are permanently accessible. Every tested task has at least one open-weight model with no statistically detectable performance difference. Second, we quantify the upper bound of annotation quality attainable from the current set of available models by proposing a routing procedure that selectively sends low-confidence items to auxiliary models, revealing when model aggregation improves performance and when that may adversely affect labeling quality.'

@@ -1,0 +1,11 @@
+<ol class="paper-list">
+{{- $section := .Get "section" }}
+{{- range where .Site.Data.papers.papers "section" $section }}
+<li><details>
+<summary><strong>{{ .title }}</strong>{{ range .tags }} <span class="paper-tag">{{ . }}</span>{{ end }}<br>
+{{ with .authors }}{{ . }}<br>
+{{ end }}{{ .venue | safeHTML }}{{ range .links }} &middot; <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ end }}</summary>
+<p class="paper-abstract">{{ .abstract }}</p>
+</details></li>
+{{- end }}
+</ol>

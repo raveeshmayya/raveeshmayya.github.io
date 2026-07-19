@@ -1,0 +1,15 @@
+# Raveesh Mayya
+
+> Raveesh Mayya is an Assistant Professor of Technology, Operations, and Statistics at NYU Stern School of Business. His research examines (a) how digital platform policy changes create unintended consequences, particularly privacy policies that reshape how firms acquire consumer data, and (b) how generative AI transforms knowledge work and collaborative innovation. He is the founding co-organizer of the Workshop on AI and Collaborative Innovation (WAICI, https://ai-conference.github.io/). Ph.D. in Information Systems, University of Maryland.
+
+## Research
+
+- [Research overview](https://raveeshmayya.com/research/): publications with abstracts, award nominations, and research streams
+- [Detailed paper descriptions](https://raveeshmayya.com/research-details.md): one-page description of each paper, faithful to the paper introductions, including research questions, methodologies, data, and findings
+- [Bio](https://raveeshmayya.com/bio/): biographical sketch
+- [CV](https://raveeshmayya.github.io/longcv/): full curriculum vitae
+
+## Contact
+
+- Substack: https://platformpolicyresearch.substack.com
+- LinkedIn: https://www.linkedin.com/in/raveesh/

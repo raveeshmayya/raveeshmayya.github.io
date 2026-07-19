@@ -1,0 +1,115 @@
+baseURL: "https://raveeshmayya.com/"
+languageCode: "en-us"
+title: "Raveesh Mayya"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+
+menu:
+  main:
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 10
+    - identifier: teaching
+      name: Teaching
+      url: /teaching/
+      weight: 20
+    - identifier: cv
+      name: CV
+      url: https://raveeshmayya.github.io/longcv/
+      weight: 30
+    - identifier: bio
+      name: Bio
+      url: /bio/
+      weight: 40
+
+params:
+  assets:
+    favicon: /favicon.ico
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-32x32.png
+    apple_touch_icon: /apple-touch-icon.png
+  env: production
+  description: "Raveesh Mayya is an Assistant Professor at NYU Stern School of Business. His research focuses on GenAI in knowledge work and digital platform policy."
+  author: "Raveesh Mayya"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowRssButtonInSectionTermList: false
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  hidemeta: true
+  hideSummary: true
+  showtoc: false
+
+  profileMode:
+    enabled: true
+    title: "Raveesh Mayya"
+    subtitle: >
+      I'm an Assistant Professor of Technology, Operations, and Statistics
+      at NYU Stern School of Business. My research examines two forces reshaping the
+      digital economy: (a) how generative AI transforms knowledge work and collaborative
+      innovation, including who it empowers and how reliably it performs, and
+      (b) how digital platform policy changes create unintended consequences,
+      particularly privacy policies that reshape the way firms acquire consumer
+      data, from permission systems to registration walls.
+      I am the founding co-organizer of the [Workshop on AI and Collaborative
+      Innovation (WAICI)](https://ai-conference.github.io/).
+    imageUrl: "/images/raveesh-mayya-nyu-stern.jpg"
+    imageTitle: "Raveesh Mayya"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: Research
+        url: /research/
+      - name: Teaching
+        url: /teaching/
+      - name: CV
+        url: https://raveeshmayya.github.io/longcv/
+      - name: Bio
+        url: /bio/
+
+  socialIcons:
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=CHANGE_ME"
+    - name: substack
+      url: "https://platformpolicyresearch.substack.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/raveesh/"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+mediaTypes:
+  text/markdown:
+    suffixes:
+      - md
+
+outputFormats:
+  paperfeed:
+    mediaType: text/markdown
+    baseName: index
+    isPlainText: true

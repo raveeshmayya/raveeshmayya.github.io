@@ -1,0 +1,168 @@
+.paper-tag {
+  display: inline-block;
+  padding: 1px 10px;
+  margin-left: 6px;
+  border-radius: 10px;
+  font-size: 0.75em;
+  font-weight: 600;
+  background: var(--tertiary);
+  color: var(--primary);
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.tag-filter {
+  margin: 10px 0 20px;
+}
+
+.tag-chip {
+  display: inline-block;
+  padding: 3px 14px;
+  margin: 0 6px 8px 0;
+  border-radius: 14px;
+  font-size: 0.85em;
+  font-weight: 600;
+  background: var(--tertiary);
+  color: var(--primary);
+  cursor: pointer;
+  box-shadow: none !important;
+}
+
+.tag-chip.active {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+
+.paper-list li {
+  margin-bottom: 14px;
+}
+
+.paper-list summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.paper-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-list summary strong:hover {
+  text-decoration: underline;
+}
+
+.paper-abstract {
+  margin: 8px 0 0;
+  padding: 10px 14px;
+  border-left: 3px solid var(--tertiary);
+  font-size: 0.92em;
+  color: var(--secondary);
+}
+
+.post-content .anchor {
+  display: none;
+}
+
+/* easter egg: pushed well below the fold */
+.bio-easter-egg {
+    margin-top: 150vh;
+    opacity: 0.6;
+}
+
+/* book covers on life page */
+.book {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 24px 0;
+}
+.book-cover {
+    width: 120px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+.book-text p {
+    margin: 0;
+}
+@media (max-width: 500px) {
+    .book { flex-direction: column; }
+}
+
+/* talk videos in genai section */
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0 28px;
+}
+.talk-video {
+    margin: 0;
+}
+.video-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.video-frame iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.talk-video figcaption {
+    font-size: 0.85em;
+    opacity: 0.75;
+    margin-top: 6px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .video-grid { grid-template-columns: 1fr; }
+}
+
+/* profile photo on bio page */
+.profile-photo {
+    margin: 0 0 28px;
+    text-align: center;
+}
+.profile-photo img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.profile-photo figcaption {
+    font-size: 0.85em;
+    opacity: 0.75;
+    margin-top: 8px;
+}
+
+/* two profile photos side by side */
+.profile-photos {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+.profile-photos .profile-photo {
+    margin: 0;
+    max-width: 220px;
+}
+.profile-photos .profile-photo img {
+    width: 220px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+.profile-photos-note {
+    text-align: center;
+    font-size: 0.85em;
+    opacity: 0.75;
+    margin-bottom: 28px;
+}

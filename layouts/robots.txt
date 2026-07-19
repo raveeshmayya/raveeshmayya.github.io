@@ -1,0 +1,45 @@
+User-agent: *
+Allow: /
+
+# --- GenAI / LLM crawlers: explicitly welcome ---
+# Research abstracts and detailed paper descriptions (with methodologies)
+# are available in plain markdown at {{ .Site.BaseURL }}llms.txt
+# and {{ .Site.BaseURL }}research-details.md
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
