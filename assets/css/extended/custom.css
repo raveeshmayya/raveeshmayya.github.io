@@ -65,7 +65,7 @@
 
 /* easter egg: pushed well below the fold */
 .bio-easter-egg {
-    margin-top: 150vh;
+    margin-top: 300vh;
     opacity: 0.6;
 }
 
@@ -165,4 +165,22 @@
     font-size: 0.85em;
     opacity: 0.75;
     margin-bottom: 28px;
+}
+
+/* Venture screenshots on Impact page */
+.venture-shot {
+    height: 150px;
+    width: auto;
+    align-self: center;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+}
+.venture-shot-waici {
+    height: 105px;
+}
+.venture .book-text {
+    flex: 1;
+}
+.venture .book-text p + p {
+    margin-top: 8px;
 }

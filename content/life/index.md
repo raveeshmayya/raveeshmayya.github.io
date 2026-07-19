@@ -31,4 +31,6 @@ I have been a passionate trivia quizzer and have gained immensely from the trivi
 </div>
 </div>
 
+**Quiz Clubs:** I founded the Quotient Quiz Club (QQC) at PESIT, my undergraduate college in Bengaluru, on 2nd November 2007. The last I checked, the club is alive and thriving, which means it has now outlasted my stay at PESIT by a comfortable margin. Remarkably, the club endures while everything around it has changed, including the college itself becoming an independent university. I take unreasonable pride in this.
+
 **Open reminder to myself:** Prior to my academic stint, I cannot think of anything that has given me as much joy and visibility as trivia quizzing, quiz hosting, and quiz book publishing. I absolutely need to rekindle my quizzing passion after my tenure process. And with GenAI upending trivia as we knew it, find a way to make trivia quizzing fun again.

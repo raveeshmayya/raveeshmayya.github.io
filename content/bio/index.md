@@ -12,7 +12,7 @@ Photo credits: UMD Smith Official Profile (2019)</figcaption>
 </figure>
 <figure class="profile-photo">
 <a href="/images/raveesh-mayya-nyu-stern.jpg" target="_blank" rel="noopener"><img src="/images/raveesh-mayya-nyu-stern.jpg" alt="AI-enhanced profile photo of Raveesh Mayya"></a>
-<figcaption><strong>AI-Enhanced Photo</strong><br>
+<figcaption><strong>AI-Enhanced Photo (🙃)</strong><br>
 Photo credits: Anil Pai, CEO of <a href="https://loopdesk.ai" target="_blank" rel="noopener">Loopdesk.ai</a></figcaption>
 </figure>
 </div>

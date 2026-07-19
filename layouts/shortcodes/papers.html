@@ -1,4 +1,4 @@
-<ol class="paper-list">
+<ol class="paper-list papers-{{ .Get "section" }}">
 {{- $section := .Get "section" }}
 {{- range where .Site.Data.papers.papers "section" $section }}
 <li><details>

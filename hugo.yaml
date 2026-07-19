@@ -21,6 +21,10 @@ menu:
       name: Teaching
       url: /teaching/
       weight: 20
+    - identifier: impact
+      name: Impact
+      url: /impact/
+      weight: 25
     - identifier: cv
       name: CV
       url: https://raveeshmayya.github.io/longcv/
@@ -75,8 +79,8 @@ params:
         url: /research/
       - name: Teaching
         url: /teaching/
-      - name: CV
-        url: https://raveeshmayya.github.io/longcv/
+      - name: Impact
+        url: /impact/
       - name: Bio
         url: /bio/
 

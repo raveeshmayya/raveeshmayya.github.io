@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
     chips.forEach(function (c) {
       c.classList.toggle('active', c.dataset.tag === tag);
     });
-    document.querySelectorAll('.post-content ol > li').forEach(function (li) {
+    document.querySelectorAll('.papers-platform > li').forEach(function (li) {
       var tags = Array.from(li.querySelectorAll('.paper-tag')).map(function (t) { return t.textContent.trim(); });
       li.style.display = (tag === 'all' || tags.indexOf(tag) !== -1) ? '' : 'none';
     });
