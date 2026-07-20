@@ -60,16 +60,14 @@ params:
   profileMode:
     enabled: true
     title: "Raveesh Mayya"
-    subtitle: >
-      I'm an Assistant Professor of Technology, Operations, and Statistics
-      at NYU Stern School of Business. My research examines two forces reshaping the
-      digital economy: (a) how generative AI transforms knowledge work and collaborative
-      innovation, including who it empowers and how reliably it performs, and
-      (b) how digital platform policy changes create unintended consequences,
-      particularly privacy policies that reshape the way firms acquire consumer
-      data, from permission systems to registration walls.
-      I am the founding co-organizer of the [Workshop on AI and Collaborative
-      Innovation (WAICI)](https://ai-conference.github.io/).
+    subtitle: |
+      I'm an Assistant Professor of Technology, Operations, and Statistics (TOpS) at NYU Stern School of Business.
+
+      **GenAI and Innovation:** I study how generative AI transforms collaboration and innovation, especially in the knowledge economy.
+
+      **Platform Policy & Privacy:** I study the unintended consequences of platform policy changes, with special interest in privacy policies that reshape how firms acquire consumer data, from permission systems to registration walls.
+
+      **Community:** I am the founding co-organizer of the [Workshop on AI and Collaborative Innovation (WAICI)](https://ai-conference.github.io/) and the founding organizer of the [ISPOC Series](https://ispoc-series.github.io/).
     imageUrl: "/images/raveesh-mayya-nyu-stern.jpg"
     imageTitle: "Raveesh Mayya"
     imageWidth: 160

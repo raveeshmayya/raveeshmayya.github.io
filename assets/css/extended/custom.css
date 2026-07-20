@@ -156,7 +156,7 @@
 }
 .profile-photos .profile-photo img {
     width: 220px;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 4 / 5;
     object-fit: cover;
     object-position: 50% 20%;
 }
@@ -183,4 +183,20 @@
 }
 .venture .book-text p + p {
     margin-top: 8px;
+}
+
+/* underline links in homepage profile subtitle */
+.profile .profile_inner span a {
+    text-decoration: underline;
+}
+
+/* spacing between subtitle blocks and around social icons */
+.profile .profile_inner span p {
+    margin: 0;
+}
+.profile .profile_inner span p:first-child {
+    margin-bottom: 18px;
+}
+.profile .profile_inner .social-icons {
+    margin-top: 18px;
 }
