@@ -12,11 +12,22 @@ papers:
   tags:
   - Token Policy
   authors: with Peiyan Yu and Anindya Ghose
-  venue: <em>Information Systems Research</em>, forthcoming 2026
+  venue: <em>Information Systems Research</em>, Articles in Advance
   links:
   - name: Link
-    url: https://pubsonline.informs.org/doi/abs/10.1287/isre.2024.0902
+    url: https://pubsonline.informs.org/doi/10.1287/isre.2024.0902
   abstract: 'This paper studies how the introduction of non-monetary gift channels affects voluntary monetary gift-giving in video-game live-streaming. The ephemeral nature of live-streamed content confines monetization to the broadcast window, making voluntary paid gifts from viewers the dominant revenue source for streamers. Platforms have increasingly introduced non-monetary gifts to encourage viewer participation within streams. Yet there is no causal evidence on whether non-monetary gifts cannibalize or complement monetary gifts. We theorize that when specific platform design conditions are present (real-time public visibility, value-differentiated gift tiers, and synchronous interaction), non-monetary gifts can complement monetary gifts through costly signaling with norm elevation. Leveraging an exogenous policy change on a major live-streaming platform that increased viewers'' access to non-monetary gifts, we analyze individual-level transaction data using multiple modern causal inference approaches. We find that non-monetary gifts significantly increase monetary gift spending. The primary driver is signaling dilution, as non-monetary gifts replicate the reputation value of the lowest paid tier, prompting viewers to escalate to costlier options to maintain differentiation. We also find early evidence of habit formation: previously non-paying viewers who experience non-monetary gift-sending are significantly more likely to begin and sustain monetary gifting. The net effect is complementarity over cannibalization, holding across viewer experience levels, streamer popularity tiers, and game genres. Our findings provide evidence that introducing non-monetary options in live-streaming can raise rather than lower voluntary monetary contributions when platform design enables signaling differentiation.'
+- title: 'Token Tradability as a Form of Platform Deregulation: Intended and Unintended Consequences of a Policy Change'
+  section: platform
+  tags:
+  - Token Policy
+  authors: with Yuxin Geng and Chenshuo Sun
+  venue: <em>Information Systems Research</em>, conditionally accepted
+  links:
+  - name: SSRN
+    url: https://papers.ssrn.com/abstract=4766534
+  note: 'This paper is very close to my heart. I am privileged to be the senior-most author on it: Yuxin was a sophomore in his undergraduate studies when this research started.'
+  abstract: 'As platforms grow in size and influence, they are increasingly relying on market-design levers to shape outcomes in their internal markets. We study one consequential but less-examined lever: deregulating the internally administered exchange rate of a platform-specific token. With deregulation, the platform stops setting the exchange rate and devolves rate discovery to users by opening a peer-to-peer secondary market. Whether such deregulation benefits or hurts the platform, and under what boundary conditions, has not been examined empirically. Specifically, we examine the impact of this transition on token value and user participation using a unique dataset from a US-based peer-to-peer product auction platform that suddenly enabled free-floating tradability of its tokens at a market-determined exchange rate. Our empirical strategy combines quasi-experimental analyses of the policy change (regression discontinuity in time, fixed effects, and Temporal Causal Inference) with two complementary controlled experiments (a behavioral study and a simulated AI-agent-based experiment). Our findings reveal that enabling tradability triggers a sharp and continuous decline in token value and lower transaction volume. The effects split across market sides: sellers receive fewer bids per auction (13.4% drop), aligning with the platform''s intention to curb excessive bidding, whereas sellers make fewer sales (14.6% drop) with less product variety (9% drop), an unintended drop in supply-side participation. Sellers shift toward easier-to-value or digitally deliverable items, with the drop concentrated among users with large token balances. The underlying mechanism is a salience shock: once the market-determined rate becomes visible, users anchored on the nominal rate recognize the diminished real value of their token balances and reduce participation. Platforms deregulating an administered token rate should pair the move with stabilization mechanisms to safeguard marketplace participation and value.'
 - title: Growing Platforms by Adding Complementors without a Contract
   section: platform
   tags:

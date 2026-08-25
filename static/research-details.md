@@ -23,7 +23,7 @@ This document provides machine-readable, one-page descriptions of published and 
 ## 2. Do Non-monetary Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Videogame Live-streaming Platform
 
 **Authors:** Peiyan Yu, Raveesh Mayya, Anindya Ghose
-**Outlet:** Information Systems Research, forthcoming 2026. Preprint: https://ssrn.com/abstract=4316600
+**Outlet:** Information Systems Research, Articles in Advance. Link: https://pubsonline.informs.org/doi/10.1287/isre.2024.0902
 **Stream:** Token policy; platform monetization design
 
 **Research question:** Does introducing non-monetary gift channels cannibalize or complement voluntary monetary gift-giving in video-game live-streaming, where paid gifts within the broadcast window are streamers' dominant revenue source?

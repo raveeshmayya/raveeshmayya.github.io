@@ -6,7 +6,7 @@ summary: "Research by Raveesh Mayya"
 
 ## Recent Research Award Nominations/Wins
 
-- **Platform Leaders 2026** (London) — Best Paper Nomination (Top 3)
+- **[The 2026 Platform Leaders Academic Prize](https://platformleaders.com/insights/the-2026-platform-leaders-academic-prize-meet-the-three-finalists/)** (London) — Finalist (Top 3)
 - **AI in Management (AIM) 2026** (Los Angeles) — Best Paper Finalist
 - **AI in Management (AIM) 2025** (Los Angeles) — Best Paper Finalist
 - **Int. Conf. of Smart Finance 2025** (Shanghai) — Best Track Paper Award

@@ -6,6 +6,7 @@ summary: "Media coverage, ventures, and industry collaborations of Raveesh Mayya
 
 ## Media Coverage
 
+- Platform Leaders, <a href="https://platformleaders.com/insights/the-2026-platform-leaders-academic-prize-meet-the-three-finalists/" target="_blank" rel="noopener">"The 2026 Platform Leaders Academic Prize: Meet the Three Finalists"</a> (features the Grubhub research) &middot; June 17, 2026
 - Platform Papers, <a href="https://platformpapers.substack.com/p/what-happens-when-platforms-add-suppliers" target="_blank" rel="noopener">"What Happens When Platforms Add Suppliers Who Never Signed Up?"</a> (invited piece, authored) &middot; April 23, 2026
 - Financial Regulation News, <a href="https://financialregnews.com/sec-small-business-report-identifies-tools-strategies-to-increase-investor-capital/" target="_blank" rel="noopener">"SEC Small Business Report Identifies Tools, Strategies to Increase Investor Capital"</a> &middot; January 12, 2026
 - U.S. Securities and Exchange Commission, <a href="https://www.sec.gov/files/2025-oasb-staff-report.pdf" target="_blank" rel="noopener">"2025 OASB Capital Formation Staff Report"</a> (features the startup accelerator research) &middot; January 9, 2026
