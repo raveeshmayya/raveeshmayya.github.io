@@ -8,9 +8,13 @@ ShowBreadCrumbs: false
 ---
 
 **Paper:** Who Forgoes Screening in Online Markets and Why? Evidence from Airbnb
+
 **Authors:** Raveesh Mayya (New York University, Stern School of Business), Shun Ye (George Mason University, Costello College of Business), Siva Viswanathan (University of Maryland, Smith School of Business), and Rajshree Agarwal (University of Maryland, Smith School of Business)
+
 **Journal:** MIS Quarterly, 45(4), 1745-1776, 2021
+
 **Finding in one line:** Raveesh Mayya and his coauthors show that Airbnb hosts who voluntarily gave up screening their guests through Instant Book gained about 1.79 booked nights and $300 in revenue per month at the cost of slightly lower ratings, with the largest gains going to Black and female hosts.
+
 **Method contribution:** An LSTM classifier trained on 9,925 hand-tagged statements from guest reviews, reaching over 90 percent accuracy, applied to sort positive mentions and six complaint categories across more than 491,000 comments.
 
 *This is an extended narrative summary written for readers who want more detail than an abstract offers without reading the full paper.*

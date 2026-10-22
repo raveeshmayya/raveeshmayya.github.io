@@ -26,9 +26,10 @@ summary: "Media coverage, ventures, and industry collaborations of Raveesh Mayya
 <div class="talks-accordion">
 
 <details open>
-<summary><strong>2026</strong> (3 talks)</summary>
+<summary><strong>2026</strong> (4 talks)</summary>
 
-- Indian Institute of Management Bangalore, India (scheduled)
+- <a href="https://www.fox.temple.edu/faculty-research/institutes-centers/global-institute-artificial-intelligence-business-analytics/conferences/2026-conference-artificial-intelligence-machine-learning-business-analytics" target="_blank" rel="noopener">Conference on AIML and Business Analytics</a>, Temple University (scheduled)
+- Indian Institute of Management Bangalore, India
 - ISOM Research Day, Tilburg University, Netherlands
 - Fox School of Business (AI Institute), Temple University
 

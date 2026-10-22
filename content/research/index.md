@@ -33,7 +33,7 @@ My Ph.D. training at UMD Smith exposed me to a variety of exciting research stre
 
 ## Generative AI, Knowledge Work, and Collaborative Innovation
 
-This is an emerging research agenda for me, with multiple working papers in progress. Three are below.
+This is an emerging research agenda for me, with multiple working papers in progress. Four are below.
 
 <div class="video-grid">
 <figure class="talk-video">

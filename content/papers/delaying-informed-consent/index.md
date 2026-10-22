@@ -8,9 +8,13 @@ ShowBreadCrumbs: false
 ---
 
 **Paper:** Delaying Informed Consent: An Empirical Investigation of Mobile Apps' Upgrade Decisions
+
 **Authors:** Raveesh Mayya (New York University, Stern School of Business) and Siva Viswanathan (University of Maryland, Smith School of Business)
+
 **Journal:** Management Science, 71(8), 7113-7135, 2025
+
 **Finding in one line:** Raveesh Mayya and Siva Viswanathan show that apps overreaching for permissions, mostly to serve targeted ads, exploit the time flexibility platforms grant for adopting privacy policies; studying this in the context of Android's switch from download-time to runtime permissions, they estimate that apps delaying adoption face marketplace consequences of roughly 350,000 lost downloads and 2,744 lost rating stars.
+
 **Method contribution:** A validated technique for estimating an app's actual downloads from publicly visible Play Store data, using download-bucket jumps and rating counts, accurate to about 1 percent against proprietary download records.
 
 *This is an extended narrative summary written for readers who want more detail than an abstract offers without reading the full paper.*

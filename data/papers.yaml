@@ -26,7 +26,7 @@ papers:
   links:
   - name: SSRN
     url: https://papers.ssrn.com/abstract=4766534
-  note: 'This paper is very close to my heart. I am privileged to be the senior-most author on it: Yuxin was a sophomore in his undergraduate studies when this research started.'
+  note: 'This paper is very close to my heart. I am privileged to be the senior-most author on it. Yuxin was a sophomore at Tsinghua University when this research started, and he is now a PhD student at the University of Minnesota Carlson School of Management.'
   abstract: 'As platforms grow in size and influence, they are increasingly relying on market-design levers to shape outcomes in their internal markets. We study one consequential but less-examined lever: deregulating the internally administered exchange rate of a platform-specific token. With deregulation, the platform stops setting the exchange rate and devolves rate discovery to users by opening a peer-to-peer secondary market. Whether such deregulation benefits or hurts the platform, and under what boundary conditions, has not been examined empirically. Specifically, we examine the impact of this transition on token value and user participation using a unique dataset from a US-based peer-to-peer product auction platform that suddenly enabled free-floating tradability of its tokens at a market-determined exchange rate. Our empirical strategy combines quasi-experimental analyses of the policy change (regression discontinuity in time, fixed effects, and Temporal Causal Inference) with two complementary controlled experiments (a behavioral study and a simulated AI-agent-based experiment). Our findings reveal that enabling tradability triggers a sharp and continuous decline in token value and lower transaction volume. The effects split across market sides: sellers receive fewer bids per auction (13.4% drop), aligning with the platform''s intention to curb excessive bidding, whereas sellers make fewer sales (14.6% drop) with less product variety (9% drop), an unintended drop in supply-side participation. Sellers shift toward easier-to-value or digitally deliverable items, with the drop concentrated among users with large token balances. The underlying mechanism is a salience shock: once the market-determined rate becomes visible, users anchored on the nominal rate recognize the diminished real value of their token balances and reduce participation. Platforms deregulating an administered token rate should pair the move with stabilization mechanisms to safeguard marketplace participation and value.'
 - title: Growing Platforms by Adding Complementors without a Contract
   section: platform
@@ -74,7 +74,7 @@ papers:
   section: genai
   tags: []
   authors: with Doron Yeverechyahu and Gal Oestreicher-Singer
-  venue: Working paper
+  venue: Working paper (R&R)
   links:
   - name: arXiv
     url: https://arxiv.org/abs/2409.08379
@@ -83,7 +83,7 @@ papers:
   section: genai
   tags: []
   authors: with Rohit Aggarwal and Harpreet Singh
-  venue: Working paper
+  venue: Working paper (R&R)
   links:
   - name: Draft
     url: https://drive.google.com/file/d/1s2J4FHrDQks3fyCVBG871ZCKJqfWjHoO/view?usp=sharing
@@ -92,8 +92,18 @@ papers:
   section: genai
   tags: []
   authors: with Xiang Cheng and João Sedoc
-  venue: Working paper
+  venue: Working paper (R&R)
   links:
   - name: arXiv
     url: https://arxiv.org/abs/2412.14461
   abstract: 'Unstructured text data annotation is foundational to management research. LLMs offer a cost-effective and scalable alternative to human annotation, but they introduce a novel challenge: the annotator itself can be retired. Proprietary models undergo regular deprecation cycles, threatening long-term reproducibility. Hence, the ability to reproduce annotation results when the original model becomes unavailable, i.e., robust reproducibility, is a central methodological challenge for LLM-based annotation. Achieving robust reproducibility requires first controlling measurement error. We develop an analytical framework that decomposes measurement error into four sources: guideline-induced error from inconsistent annotation criteria, baseline-induced error from unreliable human references, prompt-induced error from suboptimal meta-instruction, and model-induced error from architectural differences across LLMs. We develop the SILICON workflow that instantiates the analytical framework, prescribing targeted interventions at each error source. Empirical validation across nine management research tasks confirms that these interventions reduce measurement error, and simulations show that the resulting error reduction yields more accurate downstream statistical estimates. With measurement error controlled, we address two further aspects of robust reproducibility. First, we propose a regression-based methodology to establish backup open-weight models, which are permanently accessible. Every tested task has at least one open-weight model with no statistically detectable performance difference. Second, we quantify the upper bound of annotation quality attainable from the current set of available models by proposing a routing procedure that selectively sends low-confidence items to auxiliary models, revealing when model aggregation improves performance and when that may adversely affect labeling quality.'
+- title: 'Enhancing LLM Performance in Low-Resource Language Settings: Evidence from Moroccan Darija'
+  section: genai
+  tags: []
+  authors: with Badr-Eddine Lahsini (Africa Business School, Mohammed VI Polytechnic University)
+  venue: Working paper
+  links:
+  - name: Draft
+    url: https://drive.google.com/file/d/13ec5RYZt5cGOYVTyAWRu9lC3xcScGAPV/view
+  note: 'This paper grew out of Badr-Eddine Lahsini''s Fulbright visit to NYU Stern from Africa Business School (Mohammed VI Polytechnic University, Morocco), where I was his host.'
+  abstract: 'As firms increasingly deploy large language models (LLMs) to handle frontline customer service, businesses from emerging economies whose customers write in languages scarcely represented in training data find this capability closed to them: LLM responses are often unacceptable, marred by script mixing and code-switching. Instead of declaring this a failure of comprehension, we ask: what if LLMs understand the query perfectly but fail only when they write? Just as children comprehend words months before producing them, LLMs exhibit the same asymmetry, judging text more reliably than generating it. We convert this realization into a design question for languages natively written in more than one script: does generating the first draft in the script the LLM handles best, then converting it to the script the reader needs, perform better? We test this intuition in Moroccan Darija, spoken by 40 million people and written in Arabic and Latin scripts. The two scripts start from very different baselines: in an expert evaluation of 500 review responses, a frontier LLM writes acceptable Darija 91.6% of the time in Arabic script and 14.6% in Latin, which customers use just as often. Better instructions close only about half of that gap. To improve the Latin-script reply, we instantiate a staged generation pipeline: the model composes in Arabic script, transliterates to Latin, and screens it against a known-error lexicon, lifting Latin-script acceptability to 89%. Interestingly, composing in Latin script and converting to Arabic instead drags Arabic-script acceptability down to 47%. In a crossover-design field experiment, 108 native raters (1,728 evaluations) accept 81.0% of staged Latin-script replies against 15.3% of directly generated ones. Our results have practical implications for the billion-plus people whose languages live in two scripts, and they are counterintuitive: asking an LLM to write in Latin, its most dominant script, can render the output unusable.'

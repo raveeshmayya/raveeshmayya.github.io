@@ -8,8 +8,11 @@ ShowBreadCrumbs: false
 ---
 
 **Paper:** Growing Platforms by Adding Complementors without a Contract
+
 **Authors:** Raveesh Mayya (New York University, Stern School of Business) and Zhuoxin (Allen) Li (Wisconsin School of Business)
+
 **Journal:** Information Systems Research, 36(6), 1670-1690, 2025
+
 **Finding in one line:** Raveesh Mayya and Allen Li show that when Grubhub listed over 150,000 restaurants without contracts, both the listed restaurants and the platform's contracted restaurants gained takeout revenue; California's ban on the practice reversed the gains and hurt the independent restaurants it was meant to protect.
 
 *This is an extended narrative summary written for readers who want more detail than an abstract offers without reading the full paper.*

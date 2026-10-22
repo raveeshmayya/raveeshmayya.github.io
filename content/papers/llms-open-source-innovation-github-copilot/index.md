@@ -8,9 +8,13 @@ ShowBreadCrumbs: false
 ---
 
 **Paper:** The Impact of Large Language Models on Open-Source Innovation: Evidence from GitHub Copilot
+
 **Authors:** Doron Yeverechyahu (Tel Aviv University, Coller School of Management), Raveesh Mayya (New York University, Stern School of Business), and Gal Oestreicher-Singer (Tel Aviv University, Coller School of Management)
+
 **Status:** Working paper, available on arXiv (arXiv:2409.08379)
+
 **Finding in one line:** Raveesh Mayya and his coauthors show that GitHub Copilot's launch increased open-source contributions to supported languages by 28 to 40 percent, but the growth tilted toward incremental maintenance work rather than substantive new features, and the tilt widened as the underlying model improved.
+
 **Method contribution:** A natural experiment built on GitHub's business decision to support Python but not R at Copilot's launch, paired with two independent ways of classifying over 620,000 commits: parsing code diffs for net new function definitions, and GPT-4o annotation of commit messages benchmarked against expert human annotators.
 
 *This is an extended narrative summary written for readers who want more detail than an abstract offers without reading the full paper.*

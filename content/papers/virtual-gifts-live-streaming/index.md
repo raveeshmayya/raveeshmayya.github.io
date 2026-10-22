@@ -8,9 +8,13 @@ ShowBreadCrumbs: false
 ---
 
 **Paper:** Do Non-Monetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video-Game Live-Streaming Platform
+
 **Authors:** Peiyan Yu (University of Georgia, Terry College of Business), Raveesh Mayya (New York University, Stern School of Business), and Anindya Ghose (New York University, Stern School of Business)
+
 **Journal:** Information Systems Research, Articles in Advance
+
 **Finding in one line:** Raveesh Mayya and his coauthors show that when a major live-streaming platform gave viewers free virtual gifts, paid gifting rose rather than fell, adding roughly $2.42 per viewer-streamer pair per week, because free gifts diluted the signaling value of the cheapest paid tier and pushed gifters up to costlier options.
+
 **Method contribution:** Alongside a battery of modern staggered-adoption estimators and Temporal Causal Inference, the paper runs a controlled experiment on 1,440 LLM agents in MIT Professor John Horton's Expected Parrot EDSL framework, implementing all five methodological safeguards that Gao et al. (PNAS 2025) prescribe for using LLMs as human surrogates.
 
 *This is an extended narrative summary written for readers who want more detail than an abstract offers without reading the full paper.*
