@@ -21,7 +21,7 @@ My Ph.D. training at UMD Smith exposed me to a variety of exciting research stre
 
 ## Digital Platform Policy and Unintended Consequences
 
-<div class="tag-filter">
+<div class="tag-filter" data-list="papers-platform">
   <span class="tag-chip active" data-tag="all">All</span>
   <span class="tag-chip" data-tag="Platform Policy">Platform Policy</span>
   <span class="tag-chip" data-tag="Privacy">Privacy</span>
@@ -33,7 +33,7 @@ My Ph.D. training at UMD Smith exposed me to a variety of exciting research stre
 
 ## Generative AI, Knowledge Work, and Collaborative Innovation
 
-This is an emerging research agenda for me, with multiple working papers in progress. Four are below.
+This is an emerging research agenda for me, with multiple working papers in progress. Four are below. They study how generative AI reshapes the supply side of the knowledge economy (open-source software and scientific research), and how to extend its benefits to speakers of low-resource languages.
 
 <div class="video-grid">
 <figure class="talk-video">
@@ -46,26 +46,40 @@ This is an emerging research agenda for me, with multiple working papers in prog
 </figure>
 </div>
 
+<div class="tag-filter" data-list="papers-genai">
+  <span class="tag-chip active" data-tag="all">All</span>
+  <span class="tag-chip" data-tag="Knowledge Work">Knowledge Work</span>
+  <span class="tag-chip" data-tag="Language Barriers">Language Barriers</span>
+  <span class="tag-chip" data-tag="AI Reliability">AI Reliability</span>
+</div>
+
 {{< papers section="genai" >}}
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var chips = document.querySelectorAll('.tag-chip');
-  function applyFilter(tag) {
-    chips.forEach(function (c) {
+  var filters = document.querySelectorAll('.tag-filter');
+  function applyFilter(filter, tag) {
+    filter.querySelectorAll('.tag-chip').forEach(function (c) {
       c.classList.toggle('active', c.dataset.tag === tag);
     });
-    document.querySelectorAll('.papers-platform > li').forEach(function (li) {
+    document.querySelectorAll('.' + filter.dataset.list + ' > li').forEach(function (li) {
       var tags = Array.from(li.querySelectorAll('.paper-tag')).map(function (t) { return t.textContent.trim(); });
       li.style.display = (tag === 'all' || tags.indexOf(tag) !== -1) ? '' : 'none';
     });
   }
-  chips.forEach(function (c) {
-    c.addEventListener('click', function (e) { e.preventDefault(); applyFilter(c.dataset.tag); });
+  filters.forEach(function (filter) {
+    filter.querySelectorAll('.tag-chip').forEach(function (c) {
+      c.addEventListener('click', function (e) { e.preventDefault(); applyFilter(filter, c.dataset.tag); });
+    });
   });
   document.querySelectorAll('.paper-tag').forEach(function (t) {
     t.style.cursor = 'pointer';
-    t.addEventListener('click', function () { applyFilter(t.textContent.trim()); });
+    t.addEventListener('click', function () {
+      var list = t.closest('ol');
+      filters.forEach(function (filter) {
+        if (list && list.classList.contains(filter.dataset.list)) applyFilter(filter, t.textContent.trim());
+      });
+    });
   });
   var papers = document.querySelectorAll('.paper-list details');
   papers.forEach(function (d) {
