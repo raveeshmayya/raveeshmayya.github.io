@@ -1,6 +1,7 @@
 ---
 title: "Token Tradability as a Form of Platform Deregulation: Intended and Unintended Consequences of a Policy Change"
 url: /papers/token-tradability-platform-deregulation/
+date: 2026-10-22T16:46:23-04:00
 summary: "Extended narrative summary of the paper by Yuxin Geng, Raveesh Mayya, and Chenshuo Sun (Information Systems Research, conditionally accepted): when a US auction platform let users trade its tokens at a market-determined rate, the token's real value became visible, and supply-side participation fell even as the platform's intended goal was met."
 description: "Extended summary of the ISR paper on token tradability and platform deregulation, by Raveesh Mayya (NYU Stern) and coauthors."
 searchHidden: true

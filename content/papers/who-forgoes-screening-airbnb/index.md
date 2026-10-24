@@ -1,6 +1,7 @@
 ---
 title: "Who Forgoes Screening in Online Markets and Why? Evidence from Airbnb"
 url: /papers/who-forgoes-screening-airbnb/
+date: 2026-08-25T23:40:39+05:30
 summary: "Extended narrative summary of the paper by Raveesh Mayya, Shun Ye, Siva Viswanathan, and Rajshree Agarwal (2021, MIS Quarterly): why Airbnb hosts voluntarily give up their right to screen guests, and what happens when they do."
 description: "Extended summary of the MIS Quarterly paper on Airbnb's Instant Book feature and the economics of forgoing screening, by Raveesh Mayya (NYU Stern) and coauthors."
 searchHidden: true

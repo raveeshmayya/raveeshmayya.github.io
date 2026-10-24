@@ -1,6 +1,7 @@
 ---
 title: "Mitigating Spoken Language Barriers in AI-Assisted Programming: Evidence from a Field Experiment"
 url: /papers/metadata-prompting-spoken-language-barriers/
+date: 2026-10-24T00:39:01-04:00
 summary: "Extended narrative summary of the working paper by Rohit Aggarwal, Raveesh Mayya, and Harpreet Singh: in a field experiment inside a real hiring process in India, developers with weaker English abandoned more, worked slower, and scored lower when prompting an LLM in English prose, and a JSON-based format called Metadata Prompting closed those gaps."
 description: "Extended summary of the working paper on Metadata Prompting and spoken-language barriers in AI-assisted programming, by Raveesh Mayya (NYU Stern), Rohit Aggarwal (UC Riverside), and Harpreet Singh (UT Dallas Jindal)."
 searchHidden: true

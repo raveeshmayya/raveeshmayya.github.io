@@ -4,6 +4,7 @@ title: "Raveesh Mayya"
 theme: "PaperMod"
 
 enableRobotsTXT: true
+enableGitInfo: true
 
 pagination:
   pagerSize: 10

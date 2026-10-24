@@ -1,6 +1,7 @@
 ---
 title: "Growing Platforms by Adding Complementors without a Contract"
 url: /papers/growing-platforms-without-contract/
+date: 2026-08-25T23:40:39+05:30
 summary: "Extended narrative summary of the paper by Raveesh Mayya and Allen Li (2025, Information Systems Research): what happens when a food delivery platform lists restaurants without a contract, and what happens when a regulator forces it to stop."
 description: "Extended summary of the Information Systems Research paper on Grubhub's non-partnered restaurant strategy, by Raveesh Mayya (NYU Stern) and Zhuoxin (Allen) Li (Wisconsin)."
 searchHidden: true

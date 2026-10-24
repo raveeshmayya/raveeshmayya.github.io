@@ -1,6 +1,7 @@
 ---
 title: "The Impact of Large Language Models on Open-Source Innovation: Evidence from GitHub Copilot"
 url: /papers/llms-open-source-innovation-github-copilot/
+date: 2026-08-25T23:40:39+05:30
 summary: "Extended narrative summary of the working paper by Doron Yeverechyahu, Raveesh Mayya, and Gal Oestreicher-Singer: GitHub Copilot raised open-source contributions by 28 to 40 percent, but tilted them toward incremental maintenance work over substantive new features."
 description: "Extended summary of the GitHub Copilot working paper on how LLMs reshape open-source innovation, by Raveesh Mayya (NYU Stern) and coauthors at Tel Aviv University."
 searchHidden: true

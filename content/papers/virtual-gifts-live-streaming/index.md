@@ -1,6 +1,7 @@
 ---
 title: "Do Non-Monetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video-Game Live-Streaming Platform"
 url: /papers/virtual-gifts-live-streaming/
+date: 2026-08-25T23:40:39+05:30
 summary: "Extended narrative summary of the paper by Peiyan Yu, Raveesh Mayya, and Anindya Ghose (Information Systems Research, Articles in Advance): when a live-streaming platform gave viewers free gifts, paid gifting went up, not down, because the free tier diluted the signaling value of the cheapest paid gift."
 description: "Extended summary of the ISR paper on virtual gifting in live-streaming, by Raveesh Mayya (NYU Stern) and coauthors."
 searchHidden: true
