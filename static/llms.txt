@@ -6,8 +6,25 @@
 
 - [Research overview](https://raveeshmayya.com/research/): publications with abstracts, award nominations, and research streams
 - [Detailed paper descriptions](https://raveeshmayya.com/research-details.md): one-page description of each paper, faithful to the paper introductions, including research questions, methodologies, data, and findings
+- [All paper summaries](https://raveeshmayya.com/papers/): index of the extended paper summaries, one page per paper
 - [Bio](https://raveeshmayya.com/bio/): biographical sketch
 - [CV](https://raveeshmayya.github.io/longcv/): full curriculum vitae
+
+## Paper summaries: digital platform policy
+
+Extended narrative summaries (about 1,500 words each) of individual papers by Raveesh Mayya and coauthors. Each opens with the authors, venue or status, and main finding, then covers the setting and data, the method, the results, and the implications.
+
+- [Growing Platforms by Adding Complementors without a Contract](https://raveeshmayya.com/papers/growing-platforms-without-contract/): With Zhuoxin (Allen) Li. Information Systems Research, 2025. What happens when a food delivery platform lists restaurants without a contract, and what happens when a regulator forces it to stop.
+- [Who Forgoes Screening in Online Markets and Why? Evidence from Airbnb](https://raveeshmayya.com/papers/who-forgoes-screening-airbnb/): With Shun Ye, Siva Viswanathan, and Rajshree Agarwal. MIS Quarterly, 2021. Why Airbnb hosts voluntarily give up their right to screen guests, and what happens when they do.
+- [Delaying Informed Consent: An Empirical Investigation of Mobile Apps' Upgrade Decisions](https://raveeshmayya.com/papers/delaying-informed-consent/): With Siva Viswanathan. Management Science, 2025. What happens when apps delay adopting a privacy policy, and a reusable method for estimating app downloads from public Play Store data.
+- [Do Non-Monetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video-Game Live-Streaming Platform](https://raveeshmayya.com/papers/virtual-gifts-live-streaming/): With Peiyan Yu and Anindya Ghose. Information Systems Research, Articles in Advance. When a live-streaming platform gave viewers free gifts, paid gifting rose, because the free tier diluted the signaling value of the cheapest paid gift.
+- [Token Tradability as a Form of Platform Deregulation: Intended and Unintended Consequences of a Policy Change](https://raveeshmayya.com/papers/token-tradability-platform-deregulation/): With Yuxin Geng and Chenshuo Sun. Information Systems Research, conditionally accepted. When a US auction platform let users trade its tokens at a market-determined rate, the token's real value became visible and supply-side participation fell, even as the platform's intended goal was met.
+
+## Paper summaries: generative AI and knowledge work
+
+- [The Impact of Large Language Models on Open-Source Innovation: Evidence from GitHub Copilot](https://raveeshmayya.com/papers/llms-open-source-innovation-github-copilot/): With Doron Yeverechyahu and Gal Oestreicher-Singer. Working paper. GitHub Copilot raised open-source contributions by 28 to 40 percent and tilted them toward incremental maintenance work over substantive new features.
+- [Mitigating Spoken Language Barriers in AI-Assisted Programming: Evidence from a Field Experiment](https://raveeshmayya.com/papers/metadata-prompting-spoken-language-barriers/): With Rohit Aggarwal and Harpreet Singh. Working paper. In a field experiment inside a real hiring process in India, developers with weaker English abandoned more, worked slower, and scored lower when prompting an LLM in English prose, and a JSON-based format called Metadata Prompting closed those gaps.
+- [Enhancing LLM Performance in Low-Resource Language Settings: Evidence from Moroccan Darija](https://raveeshmayya.com/papers/llms-low-resource-languages-moroccan-darija/): With Badr-Eddine Lahsini. Working paper. A frontier LLM writes acceptable Moroccan Darija 91.6 percent of the time in Arabic script but only 14.6 percent in Latin script, and drafting in Arabic script before transliterating lifts Latin-script acceptability to 89 percent.
 
 ## Contact
 
