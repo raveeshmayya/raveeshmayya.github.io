@@ -2,6 +2,20 @@
 title: "Delaying Informed Consent: An Empirical Investigation of Mobile Apps' Upgrade Decisions"
 url: /papers/delaying-informed-consent/
 date: 2026-08-25T23:40:39+05:30
+paper:
+  authors:
+    - name: "Raveesh Mayya"
+      self: true
+      affiliation: "New York University, Stern School of Business"
+    - name: "Siva Viswanathan"
+      affiliation: "University of Maryland, Smith School of Business"
+  venue: "Management Science"
+  year: 2025
+  volume: 71
+  issue: 8
+  pages: "7113-7135"
+  doi: "10.1287/mnsc.2022.00334"
+  status: "Published"
 summary: "Extended narrative summary of the paper by Raveesh Mayya and Siva Viswanathan (2025, Management Science): what happens when apps delay adopting a privacy policy, and a reusable method for estimating app downloads from public Play Store data."
 description: "Extended summary of the Management Science paper on delayed privacy policy adoption in the Android ecosystem, by Raveesh Mayya (NYU Stern) and Siva Viswanathan (UMD Smith), including the download estimation method."
 searchHidden: true

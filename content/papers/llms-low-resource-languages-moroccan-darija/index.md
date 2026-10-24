@@ -2,6 +2,15 @@
 title: "Enhancing LLM Performance in Low-Resource Language Settings: Evidence from Moroccan Darija"
 url: /papers/llms-low-resource-languages-moroccan-darija/
 date: 2026-10-24T00:39:01-04:00
+paper:
+  authors:
+    - name: "Badr-Eddine Lahsini"
+      affiliation: "Mohammed VI Polytechnic University, Africa Business School"
+    - name: "Raveesh Mayya"
+      self: true
+      affiliation: "New York University, Stern School of Business"
+  year: 2026
+  status: "Working paper"
 summary: "Extended narrative summary of the working paper by Badr-Eddine Lahsini and Raveesh Mayya: a frontier LLM writes acceptable Moroccan Darija 91.6 percent of the time in Arabic script but only 14.6 percent in Latin script, and drafting in Arabic script before transliterating lifts Latin-script acceptability to 89 percent."
 description: "Extended summary of the working paper on LLM performance in Moroccan Darija, a low-resource language written in Arabic and Latin script, by Raveesh Mayya (NYU Stern) and Badr-Eddine Lahsini (UM6P Africa Business School)."
 searchHidden: true

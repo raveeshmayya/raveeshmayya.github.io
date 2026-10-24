@@ -2,6 +2,24 @@
 title: "Who Forgoes Screening in Online Markets and Why? Evidence from Airbnb"
 url: /papers/who-forgoes-screening-airbnb/
 date: 2026-08-25T23:40:39+05:30
+paper:
+  authors:
+    - name: "Raveesh Mayya"
+      self: true
+      affiliation: "New York University, Stern School of Business"
+    - name: "Shun Ye"
+      affiliation: "George Mason University, Costello College of Business"
+    - name: "Siva Viswanathan"
+      affiliation: "University of Maryland, Smith School of Business"
+    - name: "Rajshree Agarwal"
+      affiliation: "University of Maryland, Smith School of Business"
+  venue: "MIS Quarterly"
+  year: 2021
+  volume: 45
+  issue: 4
+  pages: "1745-1776"
+  doi: "10.25300/misq/2021/15335"
+  status: "Published"
 summary: "Extended narrative summary of the paper by Raveesh Mayya, Shun Ye, Siva Viswanathan, and Rajshree Agarwal (2021, MIS Quarterly): why Airbnb hosts voluntarily give up their right to screen guests, and what happens when they do."
 description: "Extended summary of the MIS Quarterly paper on Airbnb's Instant Book feature and the economics of forgoing screening, by Raveesh Mayya (NYU Stern) and coauthors."
 searchHidden: true

@@ -1,14 +1,27 @@
 ---
-title: "Do Non-Monetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video-Game Live-Streaming Platform"
+title: "Do Nonmonetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video Game Live-Streaming Platform"
 url: /papers/virtual-gifts-live-streaming/
 date: 2026-08-25T23:40:39+05:30
+paper:
+  authors:
+    - name: "Peiyan Yu"
+      affiliation: "University of Georgia, Terry College of Business"
+    - name: "Raveesh Mayya"
+      self: true
+      affiliation: "New York University, Stern School of Business"
+    - name: "Anindya Ghose"
+      affiliation: "New York University, Stern School of Business"
+  venue: "Information Systems Research"
+  year: 2026
+  doi: "10.1287/isre.2024.0902"
+  status: "Articles in Advance"
 summary: "Extended narrative summary of the paper by Peiyan Yu, Raveesh Mayya, and Anindya Ghose (Information Systems Research, Articles in Advance): when a live-streaming platform gave viewers free gifts, paid gifting went up, not down, because the free tier diluted the signaling value of the cheapest paid gift."
 description: "Extended summary of the ISR paper on virtual gifting in live-streaming, by Raveesh Mayya (NYU Stern) and coauthors."
 searchHidden: true
 ShowBreadCrumbs: false
 ---
 
-**Paper:** Do Non-Monetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video-Game Live-Streaming Platform
+**Paper:** Do Nonmonetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video Game Live-Streaming Platform
 
 **Authors:** Peiyan Yu (University of Georgia, Terry College of Business), Raveesh Mayya (New York University, Stern School of Business), and Anindya Ghose (New York University, Stern School of Business)
 
@@ -70,4 +83,4 @@ Two caveats. The post-policy window is four weeks, so the habit-formation eviden
 
 The paper extends Raveesh Mayya's research stream on platform policy changes and their consequences, this time on the demand side of creator monetization rather than the supply side of participation rules. It also connects to his generative AI stream: the LLM agent experiment operationalizes the kind of disciplined, reproducible LLM methodology his SILICON work with Cheng and Sedoc argues for, applied here as evidence rather than annotation.
 
-**Full citation:** Yu, P., Mayya, R., and Ghose, A. "Do Non-Monetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video-Game Live-Streaming Platform." Information Systems Research (Articles in Advance). https://pubsonline.informs.org/doi/10.1287/isre.2024.0902
+**Full citation:** Yu, P., Mayya, R., and Ghose, A. "Do Nonmonetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video Game Live-Streaming Platform." Information Systems Research (Articles in Advance). https://pubsonline.informs.org/doi/10.1287/isre.2024.0902

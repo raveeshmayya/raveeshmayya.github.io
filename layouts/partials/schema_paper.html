@@ -1,0 +1,69 @@
+{{- /*
+  JSON-LD for a paper summary page. The summary is an Article that is based on a
+  ScholarlyArticle (the paper itself, with every author and affiliation), and both
+  point to the site owner as a Person. Data comes from the page's `paper` front matter.
+*/ -}}
+{{- $paper := .Params.paper -}}
+{{- $person := partial "schema_person.html" . -}}
+{{- $personID := index $person "@id" -}}
+{{- $paperID := printf "%s#paper" .Permalink -}}
+{{- $dateFormat := "2006-01-02T15:04:05Z07:00" -}}
+
+{{- $authors := slice -}}
+{{- range $paper.authors -}}
+  {{- $a := dict "@type" "Person" "name" .name -}}
+  {{- if .affiliation -}}
+    {{- $a = merge $a (dict "affiliation" (dict "@type" "Organization" "name" .affiliation)) -}}
+  {{- end -}}
+  {{- if .self -}}
+    {{- $a = merge $a (dict "@id" $personID) -}}
+  {{- end -}}
+  {{- $authors = $authors | append $a -}}
+{{- end -}}
+
+{{- $work := dict "@type" "ScholarlyArticle" "@id" $paperID "name" .Title "headline" .Title "author" $authors "inLanguage" "en" -}}
+{{- with $paper.status -}}{{- $work = merge $work (dict "creativeWorkStatus" .) -}}{{- end -}}
+{{- with $paper.year -}}{{- $work = merge $work (dict "datePublished" (string .)) -}}{{- end -}}
+{{- with $paper.pages -}}{{- $work = merge $work (dict "pagination" .) -}}{{- end -}}
+{{- with $paper.venue -}}
+  {{- $part := dict "@type" "Periodical" "name" . -}}
+  {{- if $paper.volume -}}
+    {{- $part = dict "@type" "PublicationVolume" "volumeNumber" (string $paper.volume) "isPartOf" $part -}}
+  {{- end -}}
+  {{- if $paper.issue -}}
+    {{- $part = dict "@type" "PublicationIssue" "issueNumber" (string $paper.issue) "isPartOf" $part -}}
+  {{- end -}}
+  {{- $work = merge $work (dict "isPartOf" $part) -}}
+{{- end -}}
+{{- if $paper.doi -}}
+  {{- $doiURL := printf "https://doi.org/%s" $paper.doi -}}
+  {{- $work = merge $work (dict "url" $doiURL "sameAs" $doiURL "identifier" (dict "@type" "PropertyValue" "propertyID" "DOI" "value" $paper.doi)) -}}
+{{- else if $paper.arxiv -}}
+  {{- $arxivURL := printf "https://arxiv.org/abs/%s" $paper.arxiv -}}
+  {{- $work = merge $work (dict "url" $arxivURL "sameAs" $arxivURL "identifier" (dict "@type" "PropertyValue" "propertyID" "arXiv" "value" $paper.arxiv)) -}}
+{{- else if $paper.ssrn -}}
+  {{- $ssrnURL := printf "https://www.ssrn.com/abstract=%s" $paper.ssrn -}}
+  {{- $work = merge $work (dict "url" $ssrnURL "sameAs" $ssrnURL "identifier" (dict "@type" "PropertyValue" "propertyID" "SSRN" "value" $paper.ssrn)) -}}
+{{- end -}}
+
+{{- $article := dict
+  "@type" "Article"
+  "@id" (printf "%s#summary" .Permalink)
+  "headline" .Title
+  "name" .Title
+  "description" (.Description | plainify)
+  "abstract" (.Params.summary | plainify)
+  "url" .Permalink
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+  "inLanguage" "en-US"
+  "datePublished" (.Date.Format $dateFormat)
+  "dateModified" (.Lastmod.Format $dateFormat)
+  "wordCount" .WordCount
+  "isAccessibleForFree" true
+  "author" (dict "@id" $personID)
+  "publisher" (dict "@id" $personID)
+  "about" (dict "@id" $paperID)
+  "isBasedOn" (dict "@id" $paperID)
+-}}
+{{- $graph := dict "@context" "https://schema.org" "@graph" (slice $article $work $person) -}}
+<script type="application/ld+json">{{ $graph | jsonify | safeJS }}</script>

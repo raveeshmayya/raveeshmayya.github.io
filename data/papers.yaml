@@ -7,7 +7,7 @@ papers:
   venue: <em>MIS Quarterly</em>, forthcoming 2026
   links: []
   abstract: 'The institutional press confronts a dual challenge in the digital age: adapting to shifting consumption patterns toward alternative information formats and navigating an industry-wide shift from third-party to first-party data collection driven by privacy concerns. This study examines registration walls, which require users to create accounts and share personal information for content access, as a distinct alternative to monetary barriers such as paywalls. Using the New York Times'' (NYT) August 2019 registration wall implementation as a natural experiment, we study how effort-based access barriers affect user engagement. We theorize two mechanisms: an effort-investment pathway, where intrinsically motivated readers tolerate added friction, and an alternative-option pathway, where users with lower match value at a given outlet switch away. Privacy salience may further moderate these effects, although it leaves open the empirical question of whether it heightens resistance or fosters acceptance. Leveraging a unique consumer browsing panel dataset, we find strong support for the effort-investment mechanism. "News-multihomers," who consume news from multiple journalistic sources, show marginally increased engagement with NYT after the wall''s introduction, whereas "news-singlehomers," who primarily rely on NYT for journalistic news, reduce their engagement. Users in regions with higher exposure to documented privacy incidents respond less negatively, with this attenuation most pronounced among news-singlehomers, consistent with more sophisticated cost–benefit calculations. Finally, users who reduce NYT engagement display distinct switching patterns influenced by prior engagement, demographics, and privacy attitudes. Together, these findings offer insight into the mechanisms through which registration walls reshape web-based digital news engagement and carry important implications for sustaining an informed citizenry in a rapidly evolving media landscape.'
-- title: Do Non-monetary Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Videogame Live-streaming Platform
+- title: Do Nonmonetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video Game Live-Streaming Platform
   section: platform
   tags:
   - Token Policy
@@ -33,7 +33,7 @@ papers:
   tags:
   - Platform Policy
   authors: with Zhuoxin (Allen) Li
-  venue: <em>Information Systems Research</em>, 2025, 36(6), 1670–1690
+  venue: <em>Information Systems Research</em>, 2025, 36(3), 1670–1690
   links:
   - name: Link
     url: https://pubsonline.informs.org/doi/10.1287/isre.2023.0237

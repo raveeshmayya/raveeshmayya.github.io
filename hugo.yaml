@@ -1,5 +1,5 @@
 baseURL: "https://raveeshmayya.com/"
-languageCode: "en-us"
+locale: "en-US"
 title: "Raveesh Mayya"
 theme: "PaperMod"
 
@@ -91,11 +91,23 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/raveesh/"
 
+  schema:
+    jobTitle: "Assistant Professor of Technology, Operations, and Statistics"
+    affiliation: "New York University, Stern School of Business"
+    affiliationURL: "https://www.stern.nyu.edu/"
+    sameAs:
+      - "https://orcid.org/0000-0003-1248-712X"
+      - "https://openalex.org/A5065017185"
+      - "https://scholar.google.com/citations?user=165RT70AAAAJ"
+      - "https://www.linkedin.com/in/raveesh/"
+      - "https://platformpolicyresearch.substack.com"
+
 outputs:
   home:
     - HTML
     - RSS
     - JSON
+    - llmsfull
 
 sitemap:
   changefreq: monthly
@@ -116,3 +128,8 @@ outputFormats:
     mediaType: text/markdown
     baseName: index
     isPlainText: true
+  llmsfull:
+    mediaType: text/plain
+    baseName: llms-full
+    isPlainText: true
+    notAlternative: true

@@ -55,3 +55,22 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Notify IndexNow of changed pages
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          sleep 45
+          python3 scripts/indexnow.py

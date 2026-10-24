@@ -2,6 +2,20 @@
 title: "Growing Platforms by Adding Complementors without a Contract"
 url: /papers/growing-platforms-without-contract/
 date: 2026-08-25T23:40:39+05:30
+paper:
+  authors:
+    - name: "Raveesh Mayya"
+      self: true
+      affiliation: "New York University, Stern School of Business"
+    - name: "Zhuoxin (Allen) Li"
+      affiliation: "Wisconsin School of Business"
+  venue: "Information Systems Research"
+  year: 2025
+  volume: 36
+  issue: 3
+  pages: "1670-1690"
+  doi: "10.1287/isre.2023.0237"
+  status: "Published"
 summary: "Extended narrative summary of the paper by Raveesh Mayya and Allen Li (2025, Information Systems Research): what happens when a food delivery platform lists restaurants without a contract, and what happens when a regulator forces it to stop."
 description: "Extended summary of the Information Systems Research paper on Grubhub's non-partnered restaurant strategy, by Raveesh Mayya (NYU Stern) and Zhuoxin (Allen) Li (Wisconsin)."
 searchHidden: true
@@ -12,7 +26,7 @@ ShowBreadCrumbs: false
 
 **Authors:** Raveesh Mayya (New York University, Stern School of Business) and Zhuoxin (Allen) Li (Wisconsin School of Business)
 
-**Journal:** Information Systems Research, 36(6), 1670-1690, 2025
+**Journal:** Information Systems Research, 36(3), 1670-1690, 2025
 
 **Finding in one line:** Raveesh Mayya and Allen Li show that when Grubhub listed over 150,000 restaurants without contracts, both the listed restaurants and the platform's contracted restaurants gained takeout revenue; California's ban on the practice reversed the gains and hurt the independent restaurants it was meant to protect.
 
@@ -60,4 +74,4 @@ Two caveats. The strategy works where a courier can order through a restaurant's
 
 The paper belongs to Raveesh Mayya's research stream on platform policy changes and their consequences, which examines how platforms adjust the rules of participation in two-sided markets and how suppliers absorb those adjustments. It pairs a platform-initiated policy with its regulatory reversal in a single setting, a combination that rarely appears in the literature.
 
-**Full citation:** Mayya, R., and Li, Z. (2025). Growing Platforms by Adding Complementors without a Contract. *Information Systems Research*, 36(6), 1670-1690. Published February 20, 2025. An open-access version is available from the journal.
+**Full citation:** Mayya, R., and Li, Z. (2025). Growing Platforms by Adding Complementors without a Contract. *Information Systems Research*, 36(3), 1670-1690. Published February 20, 2025. An open-access version is available from the journal.

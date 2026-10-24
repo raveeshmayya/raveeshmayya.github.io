@@ -1,6 +1,6 @@
 <ol class="paper-list papers-{{ .Get "section" }}">
 {{- $section := .Get "section" }}
-{{- range where .Site.Data.papers.papers "section" $section }}
+{{- range where hugo.Data.papers.papers "section" $section }}
 <li><details>
 <summary><strong>{{ .title }}</strong>{{ range .tags }} <span class="paper-tag">{{ . }}</span>{{ end }}<br>
 {{ with .authors }}{{ . }}<br>

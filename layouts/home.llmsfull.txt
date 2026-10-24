@@ -1,0 +1,14 @@
+# {{ site.Title }}: extended paper summaries (full text)
+
+> Full text of the extended summaries of research papers by Raveesh Mayya (NYU Stern) and coauthors, generated from the pages under {{ "papers/" | absURL }}. The index with one line per paper is at {{ "llms.txt" | absURL }}.
+{{ range (where site.RegularPages "Section" "papers").ByDate }}
+
+---
+
+# {{ .Title }}
+
+URL: {{ .Permalink }}
+Published: {{ .Date.Format "2006-01-02" }}. Last updated: {{ .Lastmod.Format "2006-01-02" }}.
+
+{{ .RawContent }}
+{{- end }}

@@ -20,7 +20,7 @@ This document provides machine-readable, one-page descriptions of published and 
 
 ---
 
-## 2. Do Non-monetary Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Videogame Live-streaming Platform
+## 2. Do Nonmonetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video Game Live-Streaming Platform
 
 **Authors:** Peiyan Yu, Raveesh Mayya, Anindya Ghose
 **Outlet:** Information Systems Research, Articles in Advance. Link: https://pubsonline.informs.org/doi/10.1287/isre.2024.0902
@@ -39,7 +39,7 @@ This document provides machine-readable, one-page descriptions of published and 
 ## 3. Growing Platforms by Adding Complementors Without a Contract
 
 **Authors:** Raveesh Mayya, Zhuoxin (Allen) Li
-**Outlet:** Information Systems Research, 2025, 36(6), 1670-1690. https://pubsonline.informs.org/doi/10.1287/isre.2023.0237
+**Outlet:** Information Systems Research, 2025, 36(3), 1670-1690. https://pubsonline.informs.org/doi/10.1287/isre.2023.0237
 **Stream:** Platform design; platform growth strategy
 
 **Research question:** What happens when a platform grows by listing non-partnered (non-contracted) suppliers, a strategy in which third-party enablers facilitate trade with businesses that have no formal agreement with the platform?

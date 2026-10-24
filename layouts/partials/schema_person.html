@@ -1,0 +1,16 @@
+{{- /* The site owner as a schema.org Person, returned as a dict so a page can embed it in its own JSON-LD graph. */ -}}
+{{- $sameAs := slice -}}
+{{- range site.Params.schema.sameAs -}}
+  {{- $sameAs = $sameAs | append . -}}
+{{- end -}}
+{{- $person := dict
+  "@type" "Person"
+  "@id" (printf "%s#person" site.Home.Permalink)
+  "name" site.Params.author
+  "url" site.Home.Permalink
+  "jobTitle" site.Params.schema.jobTitle
+  "image" (site.Params.profileMode.imageUrl | absURL)
+  "affiliation" (dict "@type" "CollegeOrUniversity" "name" site.Params.schema.affiliation "url" site.Params.schema.affiliationURL)
+  "sameAs" $sameAs
+-}}
+{{- return $person -}}
