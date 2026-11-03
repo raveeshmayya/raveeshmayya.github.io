@@ -1,6 +1,8 @@
 ---
 title: "Token Tradability as a Form of Platform Deregulation: Intended and Unintended Consequences of a Policy Change"
 url: /papers/token-tradability-platform-deregulation/
+aliases:
+  - /token-tradability-as-a-platform-governance-mechanism-evidence-from-a-policy-change/
 date: 2026-10-22T16:46:23-04:00
 paper:
   authors:

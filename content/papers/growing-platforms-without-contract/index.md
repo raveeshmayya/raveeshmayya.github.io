@@ -1,6 +1,8 @@
 ---
 title: "Growing Platforms by Adding Complementors without a Contract"
 url: /papers/growing-platforms-without-contract/
+aliases:
+  - /growing-platforms-by-adding-complementors-without-a-contract/
 date: 2026-08-25T23:40:39+05:30
 paper:
   authors:

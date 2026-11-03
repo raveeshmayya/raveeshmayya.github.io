@@ -1,6 +1,8 @@
 ---
 title: "Biographical Sketch"
 url: /bio/
+aliases:
+  - /about-me/
 summary: "Biographical sketch of Raveesh Mayya"
 ---
 

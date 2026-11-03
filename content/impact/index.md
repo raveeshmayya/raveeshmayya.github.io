@@ -1,6 +1,8 @@
 ---
 title: "Impact"
 url: /impact/
+aliases:
+  - /community-service/
 summary: "Media coverage, ventures, and industry collaborations of Raveesh Mayya"
 ---
 

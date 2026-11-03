@@ -1,6 +1,8 @@
 ---
 title: "Do Nonmonetary Virtual Gifts Enhance or Diminish Voluntary Paid Gifts? Evidence from a Video Game Live-Streaming Platform"
 url: /papers/virtual-gifts-live-streaming/
+aliases:
+  - /impact-of-real-time-informational-interventions/
 date: 2026-08-25T23:40:39+05:30
 paper:
   authors:

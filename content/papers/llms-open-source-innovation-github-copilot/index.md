@@ -1,6 +1,8 @@
 ---
 title: "The Impact of Large Language Models on Open-Source Innovation: Evidence from GitHub Copilot"
 url: /papers/llms-open-source-innovation-github-copilot/
+aliases:
+  - /the-impact-of-large-language-models-on-open-source-innovation/
 date: 2026-08-25T23:40:39+05:30
 paper:
   authors:

@@ -1,6 +1,10 @@
 ---
 title: "Life Outside of Research"
 url: /life-outside-of-research/
+aliases:
+  - /books-i-authored/
+  - /life-outside-of-research-part-1/
+  - /re-engineering/
 summary: "Alternative passions: quizzing and quiz books"
 sitemap:
   disable: true

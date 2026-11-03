@@ -1,6 +1,8 @@
 ---
 title: "Who Forgoes Screening in Online Markets and Why? Evidence from Airbnb"
 url: /papers/who-forgoes-screening-airbnb/
+aliases:
+  - /who-forgoes-screening-in-online-markets-and-when-evidence-from-airbnb/
 date: 2026-08-25T23:40:39+05:30
 paper:
   authors:

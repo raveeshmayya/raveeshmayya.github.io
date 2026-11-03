@@ -1,6 +1,14 @@
 ---
 title: "Research"
 url: /research/
+aliases:
+  - /seed-accelerators-and-information-asymmetries/
+  - /location-divide-in-digital-platforms-evidence-from-a-policy-change/
+  - /category/research-work/
+  - /category/homepage/
+  - /category/innerpages/
+  - /author/raveesh/
+  - /author/raveesh/page/2/
 summary: "Research by Raveesh Mayya"
 ---
 

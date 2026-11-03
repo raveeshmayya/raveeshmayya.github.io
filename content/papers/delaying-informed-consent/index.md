@@ -1,6 +1,8 @@
 ---
 title: "Delaying Informed Consent: An Empirical Investigation of Mobile Apps' Upgrade Decisions"
 url: /papers/delaying-informed-consent/
+aliases:
+  - /an-empirical-investigation-of-mobile-apps-upgrade-decisions/
 date: 2026-08-25T23:40:39+05:30
 paper:
   authors:
