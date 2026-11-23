@@ -13,9 +13,10 @@ paper:
       affiliation: "New York University, Stern School of Business"
     - name: "Chenshuo Sun"
       affiliation: "Zhongguancun Academy"
+  venue: "Information Systems Research"
   ssrn: "4766534"
-  status: "Conditionally accepted at Information Systems Research"
-summary: "Extended narrative summary of the paper by Yuxin Geng, Raveesh Mayya, and Chenshuo Sun (Information Systems Research, conditionally accepted): when a US auction platform let users trade its tokens at a market-determined rate, the token's real value became visible, and supply-side participation fell even as the platform's intended goal was met."
+  status: "Forthcoming"
+summary: "Extended narrative summary of the paper by Yuxin Geng, Raveesh Mayya, and Chenshuo Sun (Information Systems Research, forthcoming): when a US auction platform let users trade its tokens at a market-determined rate, the token's real value became visible, and supply-side participation fell even as the platform's intended goal was met."
 description: "Extended summary of the ISR paper on token tradability and platform deregulation, by Raveesh Mayya (NYU Stern) and coauthors."
 searchHidden: true
 ShowBreadCrumbs: false
@@ -25,7 +26,7 @@ ShowBreadCrumbs: false
 
 **Authors:** Yuxin Geng (University of Minnesota, Carlson School of Management), Raveesh Mayya (New York University, Stern School of Business), and Chenshuo Sun (Zhongguancun Academy)
 
-**Journal:** Information Systems Research, conditionally accepted
+**Journal:** Information Systems Research, forthcoming
 
 **Finding in one line:** Raveesh Mayya and his coauthors show that when a US peer-to-peer auction platform deregulated its token's exchange rate and let users trade tokens at a market-determined price, the intended goal (curbing excessive bidding) was achieved, but sales fell 14.6 percent and product variety fell 9 percent because the visible market rate shocked users anchored on the token's old nominal value.
 
@@ -79,4 +80,4 @@ Two caveats. Privacy restrictions kept the secondary exchange's transaction-leve
 
 The paper extends Raveesh Mayya's research stream on platform policy changes and their unintended consequences. It also continues the multi-method approach of his virtual gifting work, which likewise pairs quasi-experimental field evidence with LLM agent experiments under the homo silicus paradigm. This paper is personally meaningful for him. He is the senior-most author, and Yuxin Geng, who was a sophomore at Tsinghua University when the research started, is now a PhD student at the University of Minnesota Carlson School of Management.
 
-**Full citation:** Geng, Y., Mayya, R., and Sun, C. "Token Tradability as a Form of Platform Deregulation: Intended and Unintended Consequences of a Policy Change." Information Systems Research, conditionally accepted. https://papers.ssrn.com/abstract=4766534
+**Full citation:** Geng, Y., Mayya, R., and Sun, C. "Token Tradability as a Form of Platform Deregulation: Intended and Unintended Consequences of a Policy Change." Information Systems Research, forthcoming. https://papers.ssrn.com/abstract=4766534
